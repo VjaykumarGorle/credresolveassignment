@@ -1,0 +1,97 @@
+/* 🌈 Global background */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+}
+
+/* Main container */
+.app-container {
+  max-width: 650px;
+  margin: 40px auto;
+}
+
+/* App title */
+.app-title {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+/* Card UI */
+.card {
+  background: #ffffff;
+  padding: 22px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #4f46e5;
+}
+
+/* Inputs */
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
+}
+
+/* Buttons */
+button {
+  padding: 10px 18px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Balance list */
+.balance-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.balance-list li {
+  background: #f9fafb;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border-left: 5px solid #667eea;
+  font-size: 14px;
+}
+
+/* Settle input */
+.balance-list input {
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
